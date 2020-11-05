@@ -35,3 +35,14 @@ set wildmenu
 let g:netrw_banner=0
 let g:netrw_browse_split=4
 let g:netrw_liststyle=3
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+set splitbelow
+set splitright
